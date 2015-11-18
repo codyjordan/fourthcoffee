@@ -71,7 +71,7 @@ input[type=submit] {
 
 div.sidebar {
     float: left;
-    margin:10px 30px 10px 0;
+    margin:30px -60px 10px 80px;
     width: 27%;
 }
 

@@ -16,7 +16,8 @@ provisioner:
 platforms:
   - name: win2012r2
     driver_config:
-      box: win2012r2-standard-chef12.0.3
+      box: kensykora/windows_2012_r2_standard
+      box_url: kensykora/windows_2012_r2_standard
 
 suites:
 - name: default
@@ -24,4 +25,4 @@ suites:
     - 'recipe[fourthcoffee]'
   attributes:
     fourthcoffee:
-      install_method: _classic
+      install_method: _dsc
